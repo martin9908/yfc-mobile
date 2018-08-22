@@ -13,8 +13,14 @@ export function getUserData(loginData){
 
     //Make API Call
     axios.get(requestUser)
-    .then(response)=>{
-      console.log(response.data);
-    }
+    .then(response => {
+      // console.log(response.data);
+      AsyncStorage.setItem('user_data', JSON.stringify(response.data[0]))
+      dispatch({type: USER_DATA, data:response.data[0]});
+    })
+    .catch(error => {
+      console.log(error);
+      alert("Invalid Username/Password");
+    });
   }
 }
