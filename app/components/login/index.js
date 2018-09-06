@@ -27,6 +27,7 @@ class Login extends Component {
   componentDidUpdate() {
     if(this.props.user_data != undefined){
       console.log(this.props.user_data);
+      Actions.loading();
     }
   }
 
@@ -63,7 +64,7 @@ class Login extends Component {
       "username": this.state.username,
       "password": this.state.password,
     }
-    if(this.state.email != null && this.state.password != null){
+    if(this.state.username != null && this.state.password != null){
       this.setState({isLoggedIn: true});
       this.props.getUserData(loginData);
     }
@@ -75,7 +76,7 @@ class Login extends Component {
       <Container>
         <Body>
           <LinearGradient
-            colors={['#ffffff', '#32CD32', '#008000']}
+            colors={['#90EE90', '#32CD32', '#008000']}
             style={{ padding: 15, alignItems: 'center', borderRadius: 5, height: '100%' }}>
             <Image resizeMode="contain" source={require('../../../assets/icon-white.png')} style={styles.imageStyle}/>
             <Item rounded style={styles.textInputStyle}>
@@ -85,7 +86,7 @@ class Login extends Component {
                 style={{color: this.state.EmailColor}}
                 placeholder="USER ID"
                 value={this.state.username}
-                onChangeText={(text) => this.setState({email: text})}
+                onChangeText={(text) => this.setState({username: text})}
                 onFocus = {() => this.onFocus('Email')}
                 placeholderTextColor='#96a6b9'
                 autoCapitalize = 'none'/>

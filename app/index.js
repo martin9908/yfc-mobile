@@ -19,6 +19,7 @@ import {
 
 //Import Scenes
 import Login from './components/login/index';
+import Loading from './components/login/loading';
 
 //Import Constants
 // import { styles } from './constants/styles';
@@ -47,6 +48,7 @@ class Main extends Component {
       <Router hideNavBar={true}>
         <Stack hideNavBar={true} key="root">
           <Scene key="login" component={Login} title="login" hideNavBar={true} initial />
+          <Scene key="loading" component={Loading} title="loading" hideNavBar={true}/>
         </Stack>
       </Router>
     );

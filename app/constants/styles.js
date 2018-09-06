@@ -23,6 +23,11 @@ export const styles = StyleSheet.create({
     marginTop: '20%',
     marginBottom: '2%',
   },
+  loadingStyle: {
+    height: "30%",
+    marginTop: '40%',
+    marginBottom: '15%',
+  },
   buttonStyle: {
     justifyContent: 'center',
     alignSelf: 'center',
