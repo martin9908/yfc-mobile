@@ -21,7 +21,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.yfc.management",
+      "supportsTablet": false,
+    },
+    "android": {
+      "package": "com.yfc.management"
     }
   }
 }

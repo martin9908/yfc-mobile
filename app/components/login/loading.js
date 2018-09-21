@@ -15,6 +15,14 @@ class Loading extends Component {
     super(props)
   }
 
+  componentDidUpdate(){
+    if(this.props.payment_done == true)
+    {
+      console.log("Start Navigation");
+      Actions.index()
+    }
+  }
+
   componentDidMount() {
     this.props.getAllArea();
     this.props.getAllUsers();
@@ -22,7 +30,7 @@ class Loading extends Component {
     this.props.getAllSector();
     this.props.getAllChapter();
     this.props.getAllPayments();
-    this.props.getAllAttendance();
+    // this.props.getAllAttendance();
   }
 
   render() {
@@ -46,7 +54,7 @@ class Loading extends Component {
 // This function makes Redux know that this component needs to be passed a piece of the state
 function mapStateToProps(state, props) {
     return {
-
+      payment_done: state.dataReducer.payment_done,
     }
 }
 

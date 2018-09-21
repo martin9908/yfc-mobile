@@ -43,7 +43,7 @@ export function getAllUsers(){
       dispatch({type: INFO_USER, data:response.data});
     })
     .catch(error => {
-      console.log(error);
+      console.log("info_user" + error);
       alert(error);
     })
   }
@@ -51,7 +51,7 @@ export function getAllUsers(){
 
 export function getAllEvents(){
   return (dispatch) => {
-    const requestEvents = baseURL + "reservation_venue"
+    const requestEvents = baseURL + "reservation_venues"
 
     axios.get(requestEvents)
     .then(response => {
@@ -59,7 +59,7 @@ export function getAllEvents(){
       dispatch({type: INFO_EVENT, data:response.data})
     })
     .catch(error => {
-      console.log(error);
+      console.log("reservation_venue" + error);
       alert(error);
     })
   }
@@ -67,15 +67,16 @@ export function getAllEvents(){
 
 export function getAllArea(){
   return (dispatch) => {
-    const requestEvents = baseURL + "info_area"
+    const requestAreas = baseURL + "info_areas"
 
-    axios.get(requestEvents)
+    axios.get(requestAreas)
     .then(response => {
       AsyncStorage.setItem('info_area', JSON.stringify(response.data))
       dispatch({type: INFO_AREA, data:response.data})
     })
     .catch(error => {
-      console.log(error);
+      console.log(requestAreas);
+      console.log("info_area" + error);
       alert(error);
     })
   }
@@ -83,15 +84,15 @@ export function getAllArea(){
 
 export function getAllChapter(){
   return (dispatch) => {
-    const requestEvents = baseURL + "info_chapter"
+    const requestChapters = baseURL + "info_chapters"
 
-    axios.get(requestEvents)
+    axios.get(requestChapters)
     .then(response => {
       AsyncStorage.setItem('info_chapter', JSON.stringify(response.data))
       dispatch({type: INFO_CHAPTER, data:response.data})
     })
     .catch(error => {
-      console.log(error);
+      console.log("info_chapter" + error);
       alert(error);
     })
   }
@@ -99,15 +100,15 @@ export function getAllChapter(){
 
 export function getAllSector(){
   return (dispatch) => {
-    const requestEvents = baseURL + "info_sector"
+    const requestSectors = baseURL + "info_sectors"
 
-    axios.get(requestEvents)
+    axios.get(requestSectors)
     .then(response => {
       AsyncStorage.setItem('info_sector', JSON.stringify(response.data))
       dispatch({type: INFO_SECTOR, data:response.data})
     })
     .catch(error => {
-      console.log(error);
+      console.log("info_sector" + error);
       alert(error);
     })
   }
@@ -115,15 +116,15 @@ export function getAllSector(){
 
 export function getAllPayments(){
   return (dispatch) => {
-    const requestEvents = baseURL + "info_payment"
+    const requestPayments = baseURL + "info_payments"
 
-    axios.get(requestEvents)
+    axios.get(requestPayments)
     .then(response => {
       AsyncStorage.setItem('info_payment', JSON.stringify(response.data))
       dispatch({type: INFO_PAYMENT, data:response.data})
     })
     .catch(error => {
-      console.log(error);
+      console.log("info_payment" + error);
       alert(error);
     })
   }
@@ -131,16 +132,22 @@ export function getAllPayments(){
 
 export function getAllAttendance(){
   return (dispatch) => {
-    const requestEvents = baseURL + "info_attendance"
+    const requestAttendances = baseURL + "info_attendances"
 
-    axios.get(requestEvents)
+    axios.get(requestAttendances)
     .then(response => {
       AsyncStorage.setItem('info_attendance', JSON.stringify(response.data))
       dispatch({type: INFO_ATTENDANCE, data:response.data})
     })
     .catch(error => {
-      console.log(error);
+      console.log("info_attendance" + error);
       alert(error);
     })
+  }
+}
+
+export function addUser(){
+  return (dispatch) => {
+
   }
 }
