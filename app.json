@@ -25,7 +25,8 @@
       "supportsTablet": false,
     },
     "android": {
-      "package": "com.yfc.management"
+      "package": "com.yfc.management",
+      "googleServicesFile": "./google-services.json",
     }
   }
 }
