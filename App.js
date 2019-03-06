@@ -1,6 +1,7 @@
 const WEBVIEW_REF = "WEBVIEW_REF";
 import React, { Component } from 'react';
 import { WebView, NetInfo, View, Text, Image, BackHandler } from 'react-native';
+import * as firebase from 'firebase';
 import { Container, Button } from 'native-base';
 import { styles } from './app/constants/app_styles';
 
@@ -14,6 +15,34 @@ export default class App extends Component {
   }
 
   componentWillMount(){
+    const firebaseConfig = {
+      apiKey: "AIzaSyD2641vhTud-qFfi6mmu4Nku-QXLYtHm8Q",
+      authDomain: "yfcmanagement-4be36.firebaseapp.com",
+      databaseURL: "https://yfcmanagement-4be36.firebaseio.com/",
+      projectId: "yfcmanagement-4be36",
+      storageBucket: "yfcmanagement-4be36.appspot.com",
+      messagingSenderId: "750026638096"
+
+    };
+
+    firebase.initializeApp(firebaseConfig);
+    firebase.messaging().getToken()
+    .then(fcmToken => {
+      if (fcmToken) {
+        // user has a device token
+      } else {
+        // user doesn't have a device token yet
+      }
+    });
+    // firebase.messaging().getToken()
+    // .then(fcmToken => {
+    //   if (fcmToken) {
+    //     // user has a device token
+    //     console.log(fcmToken);
+    //   } else {
+    //     // user doesn't have a device token yet
+    //   }
+    // });
     console.disableYellowBox = true;
   }
   componentDidMount(){
