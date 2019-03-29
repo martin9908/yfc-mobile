@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import { Image, ActivityIndicator, AsyncStorage, View, } from 'react-native';
-import { Container, Body, Button, Text, Item, Icon, Input, Footer  } from 'native-base';
+import { Image, AsyncStorage, } from 'react-native';
+import { Container, Body, Button, Text, Item, Icon, Input  } from 'native-base';
 import { LinearGradient } from 'expo';
 import { styles } from '../../constants/styles';
 
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as ReduxActions from '../../actions';
-import { Actions } from 'react-native-router-flux';
 
 class Login extends Component {
   constructor(props) {
@@ -24,19 +23,11 @@ class Login extends Component {
     };
   }
 
-  componentDidUpdate() {
-    if(this.props.user_data != undefined){
-      console.log(this.props.user_data);
-      Actions.loading();
-    }
-  }
-
   componentDidMount() {
     // AsyncStorage.clear();
     try {
       AsyncStorage.getItem("user_data").then((value) => {
         if(value != null){
-          console.log(JSON.parse(value));
           let user = JSON.parse(value);
           this.setState({
             username: user.User_Number,
@@ -63,10 +54,11 @@ class Login extends Component {
     let loginData = {
       "username": this.state.username,
       "password": this.state.password,
+      "fcm": null
     }
     if(this.state.username != null && this.state.password != null){
       this.setState({isLoggedIn: true});
-      this.props.getUserData(loginData);
+      this.props.lgoin(loginData);
     }
   }
 

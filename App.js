@@ -1,63 +1,62 @@
-const WEBVIEW_REF = "WEBVIEW_REF";
 import React, { Component } from 'react';
-import { WebView, Text, Image, } from 'react-native';
-import { Container, } from 'native-base';
-import { styles } from './app/constants/app_styles';
+import { View } from 'react-native';
+import { Root, StyleProvider } from "native-base";
+import { Font, AppLoading } from "expo";
+
+import { Provider } from 'react-redux';
+
+import getTheme from './native-base-theme/components';
+import material from './native-base-theme/variables/material';
+
+import store from './app/store'; //Import the store
+import Routes from './app/routes'; //Import the Routes file
 
 export default class App extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      homeURL: 'https://yfc-management.000webhostapp.com/'
+      homeURL: 'https://yfc-management.000webhostapp.com/',
+      loading: false,
     };
   }
 
-  componentWillMount(){
-    const firebaseConfig = {
-      apiKey: "AIzaSyD2641vhTud-qFfi6mmu4Nku-QXLYtHm8Q",
-      authDomain: "yfcmanagement-4be36.firebaseapp.com",
-      databaseURL: "https://yfcmanagement-4be36.firebaseio.com/",
-      projectId: "yfcmanagement-4be36",
-      storageBucket: "yfcmanagement-4be36.appspot.com",
-      messagingSenderId: "750026638096"
+  async componentWillMount(){
+    // const firebaseConfig = {
+    //   apiKey: "AIzaSyD2641vhTud-qFfi6mmu4Nku-QXLYtHm8Q",
+    //   authDomain: "yfcmanagement-4be36.firebaseapp.com",
+    //   databaseURL: "https://yfcmanagement-4be36.firebaseio.com/",
+    //   projectId: "yfcmanagement-4be36",
+    //   storageBucket: "yfcmanagement-4be36.appspot.com",
+    //   messagingSenderId: "750026638096"
+    // };
     
-    };
-    
+    await Font.loadAsync({
+      Roboto: require("native-base/Fonts/Roboto.ttf"),
+      Roboto_medium: require("native-base/Fonts/Roboto_medium.ttf")
+    });
+    this.setState({ loading: false });
     console.disableYellowBox = true;
   }
 
-  // componentDidMount(){
-  //   BackHandler.addEventListener('hardwareBackPress', this.backHandler);
-  // }
-  // componentWillUnmount(){
-  //   BackHandler.removeEventListener('hardwareBackPress', this.backHandler);
-  // }
-
-  // backHandler = () => {
-  //     if(this.state.backButtonEnabled) {
-  //         this.refs[WEBVIEW_REF].goBack();
-  //         return true;
-  //     }
-  // }
-
-  render(){
-    return (
-      <WebView
-        ref={WEBVIEW_REF}
-        source={{uri: this.state.homeURL}}
-        style={{marginTop: 20, flex:1}}
-        onError={() => {console.log("Error");}}
-        userAgent={"Mozilla/5.0 (Linux; Android 8.0.0; SM-G950F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Mobile Safari/537.36"}
-        renderError={(errorDomain, errorCode, errorDesc) => (
-          <Container style={styles.containerStyle}>
-            <Image resizeMode="contain" source={require('./assets/no_connection.png')} style={styles.imageStyle}/>
-            <Text style={styles.textStyle}>
-              {errorDesc}
-            </Text>
-          </Container>
-        )}
-      />
-    );
+  render() {
+    if (this.state.loading) {
+      console.log(this.state.loading)
+      return (
+        <View>
+          <AppLoading />
+        </View>
+      )
+    } else {
+      return (
+        <StyleProvider style={getTheme(material)}>
+        <Root>
+          <Provider store={store}>
+            <Routes/>
+          </Provider>
+        </Root>
+        </StyleProvider>
+      );
+    }
   }
 }
