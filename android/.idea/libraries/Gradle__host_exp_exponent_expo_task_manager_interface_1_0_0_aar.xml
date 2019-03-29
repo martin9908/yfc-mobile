@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: host.exp.exponent:expo-task-manager-interface:1.0.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expo-task-manager-interface-1.0.0.aar/40d3fe52b86d2629e1d21d631abee6c1/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expo-task-manager-interface-1.0.0.aar/40d3fe52b86d2629e1d21d631abee6c1/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expo-task-manager-interface-1.0.0.aar/7915b7defb01d78fe28a311098d39b85/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expo-task-manager-interface-1.0.0.aar/7915b7defb01d78fe28a311098d39b85/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -1,0 +1,4 @@
+#Fri Mar 29 11:06:15 PHT 2019
+base.0=/Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/transforms/dexMerger/devKernel/debug/2
+path.0=classes.dex
+renamed.0=classes.dex

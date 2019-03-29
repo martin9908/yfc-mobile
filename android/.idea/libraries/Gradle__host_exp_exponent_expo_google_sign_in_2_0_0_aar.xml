@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: host.exp.exponent:expo-google-sign-in:2.0.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expo-google-sign-in-2.0.0.aar/b05dee6004e8df77a468d35afc7f0c4d/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expo-google-sign-in-2.0.0.aar/b05dee6004e8df77a468d35afc7f0c4d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expo-google-sign-in-2.0.0.aar/609c2cd8bcc88a41ad868d14088b5f43/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expo-google-sign-in-2.0.0.aar/609c2cd8bcc88a41ad868d14088b5f43/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

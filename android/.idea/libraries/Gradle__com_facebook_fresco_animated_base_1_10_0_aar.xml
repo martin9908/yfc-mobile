@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.fresco:animated-base:1.10.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/animated-base-1.10.0.aar/181cc0051fd58fc279be7e1f1788b2a3/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/animated-base-1.10.0.aar/181cc0051fd58fc279be7e1f1788b2a3/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/animated-base-1.10.0.aar/3e8fc90f0abf1c471280903cbeaaaa66/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/animated-base-1.10.0.aar/3e8fc90f0abf1c471280903cbeaaaa66/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

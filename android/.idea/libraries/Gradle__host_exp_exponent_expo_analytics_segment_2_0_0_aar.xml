@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: host.exp.exponent:expo-analytics-segment:2.0.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expo-analytics-segment-2.0.0.aar/61d4bbc024147ee85f07032e8e730fc3/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expo-analytics-segment-2.0.0.aar/61d4bbc024147ee85f07032e8e730fc3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expo-analytics-segment-2.0.0.aar/43e9d73ae1ae7eacb6360f2e3699e99e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expo-analytics-segment-2.0.0.aar/43e9d73ae1ae7eacb6360f2e3699e99e/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -15,6 +15,7 @@ class Login extends Component {
     this.state = {
       username: null,
       password: null,
+      fcm: null,
       isLoggedIn: false,
       EmailColor: '#96a6b9',
       PasswordColor: '#96a6b9',
@@ -23,7 +24,7 @@ class Login extends Component {
     };
   }
 
-  componentDidMount() {
+  componentWillMount() {
     // AsyncStorage.clear();
     try {
       AsyncStorage.getItem("user_data").then((value) => {
@@ -35,6 +36,11 @@ class Login extends Component {
           })
         }
       }).done();
+      AsyncStorage.getItem("fcmToken").then((value)=>{
+        this.setState({
+          fcm: value
+        }).done();
+      })
     } catch (error) {
       // Error retrieving data
       console.log('Async Fetch Error: ' + error);
@@ -54,7 +60,7 @@ class Login extends Component {
     let loginData = {
       "username": this.state.username,
       "password": this.state.password,
-      "fcm": null
+      "fcm": this.state.fcm
     }
     if(this.state.username != null && this.state.password != null){
       this.setState({isLoggedIn: true});

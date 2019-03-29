@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: host.exp.exponent:expo-camera:2.0.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expo-camera-2.0.0.aar/1cffabb9d9919df5c32d357650f5d62e/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expo-camera-2.0.0.aar/1cffabb9d9919df5c32d357650f5d62e/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expo-camera-2.0.0.aar/b7e669dbf6e850e425745cb44e7a3f20/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expo-camera-2.0.0.aar/b7e669dbf6e850e425745cb44e7a3f20/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

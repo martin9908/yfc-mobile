@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: host.exp.exponent:expo-background-fetch:1.0.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expo-background-fetch-1.0.0.aar/529f03978cccb59e731835aa8ab3b413/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expo-background-fetch-1.0.0.aar/529f03978cccb59e731835aa8ab3b413/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expo-background-fetch-1.0.0.aar/449f3c95bb2b6897f0ba687b633c9b8f/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expo-background-fetch-1.0.0.aar/449f3c95bb2b6897f0ba687b633c9b8f/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

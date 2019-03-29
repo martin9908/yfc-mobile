@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { View } from 'react-native';
+import { View, AsyncStorage } from 'react-native';
 import { Root, StyleProvider } from "native-base";
+import firebase, { Notification, NotificationOpen } from 'react-native-firebase';
 import { Font, AppLoading } from "expo";
 
 import { Provider } from 'react-redux';
@@ -22,14 +23,21 @@ export default class App extends Component {
   }
 
   async componentWillMount(){
-    // const firebaseConfig = {
-    //   apiKey: "AIzaSyD2641vhTud-qFfi6mmu4Nku-QXLYtHm8Q",
-    //   authDomain: "yfcmanagement-4be36.firebaseapp.com",
-    //   databaseURL: "https://yfcmanagement-4be36.firebaseio.com/",
-    //   projectId: "yfcmanagement-4be36",
-    //   storageBucket: "yfcmanagement-4be36.appspot.com",
-    //   messagingSenderId: "750026638096"
-    // };
+    if (!firebase.apps.length) {
+      const firebaseConfig = {
+        apiKey: "AIzaSyCCYzwBIARHT3bgGMPxl1mUBhnL_GS5smA",
+        appId: "1:996744259272:ios:d47f258a1130d351",
+        authDomain: "alert-tempo-91506.firebaseapp.com",
+        databaseURL: "https://alert-tempo-91506.firebaseio.com",
+        projectId: "alert-tempo-91506",
+        storageBucket: "alert-tempo-91506.appspot.com",
+        messagingSenderId: "996744259272"
+
+      };
+      firebase.initializeApp(firebaseConfig);
+    } else {
+      firebase.app();
+    }
     
     await Font.loadAsync({
       Roboto: require("native-base/Fonts/Roboto.ttf"),
@@ -37,6 +45,29 @@ export default class App extends Component {
     });
     this.setState({ loading: false });
     console.disableYellowBox = true;
+  }
+
+  async componentDidMount() {
+    firebase.messaging().hasPermission()
+    .then(enabled => {
+      if (enabled) {
+        firebase.messaging().getToken().then((token) => {
+          console.log("LOG:", token)
+          AsyncStorage.setItem("fcmToken", token);
+        })
+        // user has permissions
+      } else {
+        firebase.messaging().requestPermission()
+          .then(() => {
+            alert("User Now Has Permission")
+          })
+          .catch(error => {
+            console.log(error)
+            alert("Error", error)
+            // User has rejected permissions
+          });
+      }
+    });
   }
 
   render() {
