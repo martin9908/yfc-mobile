@@ -26,25 +26,24 @@ class Login extends Component {
 
   componentWillMount() {
     // AsyncStorage.clear();
-    try {
-      AsyncStorage.getItem("user_data").then((value) => {
-        if(value != null){
-          let user = JSON.parse(value);
-          this.setState({
-            username: user.User_Number,
-            password: user.password
-          })
-        }
-      }).done();
-      AsyncStorage.getItem("fcmToken").then((value)=>{
+    AsyncStorage.getItem("user_data").then((value) => {
+      if(value != null){
+        let user = JSON.parse(value);
         this.setState({
-          fcm: value
-        }).done();
+          username: user.User_Number,
+          password: user.password
+        });
+      }
+    }).catch((error) => {
+      console.log(error);
+    });
+    AsyncStorage.getItem("fcmToken").then((value)=>{
+      this.setState({
+        fcm: value
       })
-    } catch (error) {
-      // Error retrieving data
-      console.log('Async Fetch Error: ' + error);
-    }
+    }).catch((error) => {
+      console.log(error);
+    });
   }
 
   onFocus = (TextBox) => {

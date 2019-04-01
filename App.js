@@ -59,7 +59,7 @@ export default class App extends Component {
       } else {
         firebase.messaging().requestPermission()
           .then(() => {
-            alert("User Now Has Permission")
+            console.log("User Now Has Permission")
           })
           .catch(error => {
             console.log(error)

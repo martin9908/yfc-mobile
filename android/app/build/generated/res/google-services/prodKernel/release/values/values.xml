@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">750026638096-k2au68h6kt8gm9j427relvs3no49dgt3.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://yfcmanagement-4be36.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">750026638096</string>
+    <string name="google_api_key" translatable="false">AIzaSyCw9gZx1IskLhsswGy_i0tr2UjK3uEq_Tk</string>
+    <string name="google_app_id" translatable="false">1:750026638096:android:d535ee459b36f495</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCw9gZx1IskLhsswGy_i0tr2UjK3uEq_Tk</string>
+    <string name="google_storage_bucket" translatable="false">yfcmanagement-4be36.appspot.com</string>
+    <string name="project_id" translatable="false">yfcmanagement-4be36</string>
+</resources>
