@@ -11,10 +11,11 @@ export const INFO_ATTENDANCE = 'INFO_ATTENDANCE';
 import axios from 'axios';
 import { AsyncStorage } from 'react-native';
 import { Actions } from 'react-native-router-flux';
+// 192.168.1.2
+const baseURL = "http://192.168.1.2/yfc-managment/api/v2/";
+// const baseURL = "http://yfc-management.hostingerapp.com/api/v2/";
 
-const baseURL = "http://yfc-management.hostingerapp.com/api/v2/";
-
-export function lgoin(loginData){
+export function login(loginData){
   return (dispatch) => {
     //users?user_name=1001&password=admin123&fcm=fhbW1eh2XQA:APA91bGzUdgx2h0YORnfULscecdurTkN7CSWEJYOrjyGCz4awDinvTXMQl8N1WikrzL0EaU8MUGorVVxzZCGUGDREBATavJx1o
     const requestUser = baseURL + "users?user_name=" + loginData.username + "&password=" + loginData.password + "&fcm=" + loginData.fcm;

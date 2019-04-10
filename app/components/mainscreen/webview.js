@@ -7,7 +7,7 @@ import { styles } from '../../constants/app_styles';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as ReduxActions from '../../actions';
-import { Actions } from 'react-native-router-flux';
+import { Actions,  } from 'react-native-router-flux';
 
 class Index extends Component {
     constructor(props) {
@@ -20,7 +20,7 @@ class Index extends Component {
 
     componentDidMount(){
       this.setState({
-        homeURL: 'http://yfc-management.hostingerapp.com/pages/database/login.php?username=' + this.props.user_data[0].User_Number + '&password=' + this.props.user_data[0].password,
+        homeURL: 'http://192.168.1.2/yfc-managment/pages/database/login.php?username=' + this.props.user_data[0].User_Number + '&password=' + this.props.user_data[0].password,
       })
     }
 
@@ -29,7 +29,7 @@ class Index extends Component {
           <WebView
             ref={WEBVIEW_REF}
             source={{uri: this.state.homeURL}}
-            style={{marginTop: 20, flex:1}}
+            style={{flex:1}}
             onError={() => {console.log("Error");}}
             userAgent={"Mozilla/5.0 (Linux; Android 8.0.0; SM-G950F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Mobile Safari/537.36"}
             renderError={(errorDomain, errorCode, errorDesc) => (

@@ -12,7 +12,7 @@ export default class Loading extends Component {
   }
 
   componentDidMount(){
-    Actions.push("index");
+    Actions.push("drawer");
   }
 
   render() {

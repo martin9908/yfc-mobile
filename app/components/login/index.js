@@ -66,7 +66,7 @@ class Login extends Component {
     }
     if(this.state.username != null && this.state.password != null){
       this.setState({isLoggedIn: true});
-      this.props.lgoin(loginData);
+      this.props.login(loginData);
     }
   }
 

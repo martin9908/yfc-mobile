@@ -44,4 +44,39 @@ export const styles = StyleSheet.create({
     marginTop: 40,
     marginBottom: 10,
   },
+  sidebarContent: {
+    backgroundColor: colors.white,
+  },
+  sidebarContainer: {
+    backgroundColor: colors.white,
+  },
+  sidebarHeader: {
+    backgroundColor: 'green',
+    paddingTop: '9%',
+    height: 64,
+    justifyContent:'flex-start'
+  },
+  sidebarListStyle: {
+    paddingBottom: 20,
+  },
+  sidebarListItemStyle: {
+    paddingTop: 20,
+  },
+  sidebarImage: {
+    width: 128,
+    height: 25,
+  },
+  touchableStyle: {
+    borderWidth: 1,
+    borderColor: colors.orange,
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: 40,
+    height: 40,
+    backgroundColor: colors.orange,
+    borderRadius: 100,
+  },
+  touchableItemsStyle: {
+    color: colors.gray,
+  },
 })
