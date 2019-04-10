@@ -12,7 +12,7 @@ import axios from 'axios';
 import { AsyncStorage } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 
-const baseURL = "http://10.1.3.156/yfc-managment/api/v2/";
+const baseURL = "http://yfc-management.hostingerapp.com/api/v2/";
 
 export function lgoin(loginData){
   return (dispatch) => {
