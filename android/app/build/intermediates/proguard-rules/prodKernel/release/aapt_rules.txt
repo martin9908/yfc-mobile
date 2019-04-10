@@ -1,0 +1,239 @@
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:204
+-keep class abi26_0_0.com.facebook.react.devsupport.DevSettingsActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:201
+-keep class abi27_0_0.com.facebook.react.devsupport.DevSettingsActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:198
+-keep class abi28_0_0.com.facebook.react.devsupport.DevSettingsActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:195
+-keep class abi29_0_0.com.facebook.react.devsupport.DevSettingsActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:192
+-keep class abi30_0_0.com.facebook.react.devsupport.DevSettingsActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:189
+-keep class abi31_0_0.com.facebook.react.devsupport.DevSettingsActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:254
+-keep class abi31_0_0.expo.modules.payments.stripe.RedirectUriReceiver { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:187
+-keep class abi32_0_0.com.facebook.react.devsupport.DevSettingsActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:235
+-keep class abi32_0_0.expo.modules.appauth.AppAuthBrowserActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:441
+-keep class android.support.v4.content.FileProvider { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:609
+-keep class com.facebook.CurrentAccessTokenExpirationBroadcastReceiver { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:471
+-keep class com.facebook.CustomTabActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:470
+-keep class com.facebook.CustomTabMainActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:283
+-keep class com.facebook.FacebookActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:553
+-keep class com.facebook.ads.AudienceNetworkActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:288
+-keep class com.facebook.ads.InterstitialAdActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:604
+-keep class com.facebook.internal.FacebookInitProvider { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:591
+-keep class com.facebook.marketing.internal.MarketingInitProvider { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:184
+-keep class com.facebook.react.devsupport.DevSettingsActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:581
+-keep class com.google.android.gms.ads.AdActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:473
+-keep class com.google.android.gms.analytics.AnalyticsJobService { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:316
+-keep class com.google.android.gms.analytics.AnalyticsReceiver { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:325
+-keep class com.google.android.gms.analytics.AnalyticsService { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:488
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:479
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:549
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:331
+-keep class com.google.android.gms.gcm.GcmReceiver { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:509
+-keep class com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:523
+-keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:504
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:519
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:424
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:529
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:541
+-keep class com.google.firebase.iid.FirebaseInstanceIdService { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:496
+-keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:576
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:392
+-keep class com.theartofdev.edmodo.cropper.CropImageActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:465
+-keep class expo.modules.appauth.AppAuthBrowserActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:239
+-keep class expo.modules.payments.stripe.RedirectUriReceiver { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:451
+-keep class expo.modules.taskManager.TaskBroadcastReceiver { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:459
+-keep class expo.modules.taskManager.TaskJobService { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:208
+-keep class host.exp.exponent.ExponentDevActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:294
+-keep class host.exp.exponent.ExponentIntentService { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:132
+-keep class host.exp.exponent.LauncherActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:145
+-keep class host.exp.exponent.MainActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:124
+-keep class host.exp.exponent.MainApplication { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:271
+-keep class host.exp.exponent.chrometabs.ChromeTabsManagerActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:273
+-keep class host.exp.exponent.experience.ErrorActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:139
+-keep class host.exp.exponent.experience.ExperienceActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:166
+-keep class host.exp.exponent.experience.HomeActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:278
+-keep class host.exp.exponent.experience.InfoActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:173
+-keep class host.exp.exponent.experience.TvActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:386
+-keep class host.exp.exponent.fcm.FcmRegistrationIntentService { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:343
+-keep class host.exp.exponent.gcm.ExponentGcmListenerService { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:350
+-keep class host.exp.exponent.gcm.ExponentInstanceIDListenerService { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:357
+-keep class host.exp.exponent.gcm.GcmRegistrationIntentService { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:438
+-keep class host.exp.exponent.notifications.ScheduledNotificationReceiver { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:233
+-keep class host.exp.exponent.oauth.OAuthResultActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:216
+-keep class host.exp.exponent.oauth.OAuthWebViewActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:299
+-keep class host.exp.exponent.referrer.InstallReferrerReceiver { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:368
+-keep class io.invertase.firebase.messaging.RNFirebaseInstanceIdService { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:363
+-keep class io.invertase.firebase.messaging.RNFirebaseMessagingService { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:562
+-keep class io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:568
+-keep class io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:565
+-keep class io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:556
+-keep class net.openid.appauth.AuthorizationManagementActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/merged_manifests/prodKernelRelease/processProdKernelReleaseManifest/merged/AndroidManifest.xml:221
+-keep class net.openid.appauth.RedirectUriReceiverActivity { <init>(...); }
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/src/main/res/layout/error_activity_new.xml:2
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout/abc_alert_dialog_material.xml:41
+-keep class android.support.v4.widget.NestedScrollView { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout/abc_select_dialog_material.xml:23
+-keep class android.support.v7.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout/abc_action_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout/abc_expanded_menu_layout.xml:17
+-keep class android.support.v7.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout/abc_popup_menu_item_layout.xml:17
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout/abc_list_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout/abc_screen_toolbar.xml:27
+-keep class android.support.v7.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout/abc_screen_toolbar.xml:43
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout/abc_action_mode_bar.xml:19
+-keep class android.support.v7.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout/abc_screen_toolbar.xml:17
+-keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout/abc_action_menu_layout.xml:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout/abc_activity_chooser_view.xml:19
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout/abc_alert_dialog_material.xml:18
+-keep class android.support.v7.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/facebook-common-4.39.0.aar/a66874a852911aacf98609587de0cf17/res/layout/com_facebook_smart_device_dialog_fragment.xml:47
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/facebook-common-4.39.0.aar/a66874a852911aacf98609587de0cf17/res/layout/com_facebook_device_auth_dialog_fragment.xml:45
+-keep class android.support.v7.widget.AppCompatImageView { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout/abc_alert_dialog_button_bar_material.xml:26
+-keep class android.support.v7.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/facebook-common-4.39.0.aar/a66874a852911aacf98609587de0cf17/res/layout/com_facebook_smart_device_dialog_fragment.xml:22
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/facebook-common-4.39.0.aar/a66874a852911aacf98609587de0cf17/res/layout/com_facebook_device_auth_dialog_fragment.xml:22
+-keep class android.support.v7.widget.CardView { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout/abc_screen_content_include.xml:19
+-keep class android.support.v7.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout/abc_alert_dialog_title_material.xml:45
+-keep class android.support.v7.widget.DialogTitle { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout/abc_screen_simple_overlay_action_mode.xml:23
+-keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout/abc_screen_simple.xml:17
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout/abc_dialog_title_material.xml:22
+-keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout/abc_search_view.xml:75
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout-v26/abc_screen_toolbar.xml:37
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/expoview-32.0.0.aar/a9655434e468ceb13f8cbaa1073e6b35/res/layout/oauth_webview_activity.xml:5
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/expoview-32.0.0.aar/a9655434e468ceb13f8cbaa1073e6b35/res/layout/info_activity.xml:14
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout/abc_screen_toolbar.xml:36
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout/abc_screen_simple_overlay_action_mode.xml:32
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout/abc_screen_simple.xml:25
+-keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout/abc_alert_dialog_title_material.xml:56
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout/abc_alert_dialog_material.xml:52
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c2f1104ec4a0d3e7d340f24b1d2c1140/res/layout/abc_alert_dialog_button_bar_material.xml:43
+-keep class android.widget.Space { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.1.aar/068930b7dc330c58fff92709bcb89c29/res/layout/browser_actions_context_menu_page.xml:5
+-keep class androidx.browser.browseractions.BrowserActionsFallbackMenuView { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-2.6.1.aar/2f812205c4ac3f87c630b0e04e85d620/res/layout/exo_simple_player_view.xml:18
+-keep class com.google.android.exoplayer2.ui.AspectRatioFrameLayout { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-2.6.1.aar/2f812205c4ac3f87c630b0e04e85d620/res/layout/exo_playback_control_view.xml:74
+-keep class com.google.android.exoplayer2.ui.DefaultTimeBar { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-2.6.1.aar/2f812205c4ac3f87c630b0e04e85d620/res/layout/exo_simple_player_view.xml:35
+-keep class com.google.android.exoplayer2.ui.SubtitleView { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/f6d080770243f79dee094ca3f3e0a65a/res/layout/amu_text_bubble.xml:7
+-keep class com.google.maps.android.ui.RotationLayout { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.7.0.aar/25915dda54a09d97373e87c6644df35d/res/layout/crop_image_activity.xml:2
+-keep class com.theartofdev.edmodo.cropper.CropImageView { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.7.0.aar/25915dda54a09d97373e87c6644df35d/res/layout/crop_image_view.xml:13
+-keep class com.theartofdev.edmodo.cropper.CropOverlayView { <init>(...); }
+
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/src/main/res/layout/error_fragment.xml:57
+# Referenced at /Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/src/main/res/layout/error_console_fragment.xml:25
+-keep class host.exp.exponent.views.ExponentImageButton { <init>(...); }
+

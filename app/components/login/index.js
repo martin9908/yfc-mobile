@@ -16,6 +16,7 @@ class Login extends Component {
       username: null,
       password: null,
       isLoggedIn: false,
+      fcm: null,
       EmailColor: '#96a6b9',
       PasswordColor: '#96a6b9',
       isEmailDisabled: false,
@@ -32,6 +33,13 @@ class Login extends Component {
           this.setState({
             username: user.User_Number,
             password: user.password
+          })
+        }
+      }).done();
+      AsyncStorage.getItem("fcmToken").then((value)=>{
+        if(value != null){
+          this.setState({
+            fcm: value
           })
         }
       }).done();
@@ -54,7 +62,7 @@ class Login extends Component {
     let loginData = {
       "username": this.state.username,
       "password": this.state.password,
-      "fcm": null
+      "fcm": this.state.fcm,
     }
     if(this.state.username != null && this.state.password != null){
       this.setState({isLoggedIn: true});

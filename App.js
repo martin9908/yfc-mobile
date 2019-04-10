@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import { View, AsyncStorage } from 'react-native';
 import { Root, StyleProvider } from "native-base";
+import NotificationPopup from 'react-native-push-notification-popup';
+import firebase, { Notification, NotificationOpen } from 'react-native-firebase';
 import { Font, AppLoading } from "expo";
 
 import { Provider } from 'react-redux';
 
 import getTheme from './native-base-theme/components';
-import platform from './native-base-theme/variables/platform';
+import material from './native-base-theme/variables/material';
 
 import store from './app/store'; //Import the store
 import Routes from './app/routes'; //Import the Routes file
@@ -22,21 +24,21 @@ export default class App extends Component {
   }
 
   async componentWillMount(){
-    // if (!firebase.apps.length) {
-    //   const firebaseConfig = {
-    //     apiKey: "AIzaSyCCYzwBIARHT3bgGMPxl1mUBhnL_GS5smA",
-    //     appId: "1:996744259272:ios:d47f258a1130d351",
-    //     authDomain: "alert-tempo-91506.firebaseapp.com",
-    //     databaseURL: "https://alert-tempo-91506.firebaseio.com",
-    //     projectId: "alert-tempo-91506",
-    //     storageBucket: "alert-tempo-91506.appspot.com",
-    //     messagingSenderId: "996744259272"
+    if (!firebase.apps.length) {
+      const firebaseConfig = {
+        apiKey: "AIzaSyD2641vhTud-qFfi6mmu4Nku-QXLYtHm8Q",
+        appId: "1:750026638096:android:d535ee459b36f495",
+        authDomain: "alert-tempo-91506.firebaseapp.com",
+        databaseURL: "https://alert-tempo-91506.firebaseio.com",
+        projectId: "yfcmanagement-4be36",
+        storageBucket: "alert-tempo-91506.appspot.com",
+        messagingSenderId: "750026638096"
 
-    //   };
-    //   firebase.initializeApp(firebaseConfig);
-    // } else {
-    //   firebase.app();
-    // }
+      };
+      firebase.initializeApp(firebaseConfig);
+    } else {
+      firebase.app();
+    }
     
     await Font.loadAsync({
       Roboto: require("native-base/Fonts/Roboto.ttf"),
@@ -48,26 +50,88 @@ export default class App extends Component {
   }
 
   async componentDidMount() {
-    // firebase.messaging().hasPermission()
-    // .then(enabled => {
-    //   if (enabled) {
-    //     firebase.messaging().getToken().then((token) => {
-    //       console.log("LOG:", token)
-    //       AsyncStorage.setItem("fcmToken", token);
-    //     })
-    //     // user has permissions
-    //   } else {
-    //     firebase.messaging().requestPermission()
-    //       .then(() => {
-    //         alert("User Now Has Permission")
-    //       })
-    //       .catch(error => {
-    //         console.log(error)
-    //         alert("Error", error)
-    //         // User has rejected permissions
-    //       });
-    //   }
-    // });
+    firebase.messaging().hasPermission()
+    .then(enabled => {
+      if (enabled) {
+        firebase.messaging().getToken().then((token) => {
+          console.log("LOG:", token)
+          AsyncStorage.setItem("fcmToken", token);
+        })
+        // user has permissions
+      } else {
+        firebase.messaging().requestPermission()
+          .then(() => {
+            alert("User Now Has Permission")
+          })
+          .catch(error => {
+            console.log(error)
+            alert("Error", error)
+            // User has rejected permissions
+          });
+      }
+    });
+
+    this.notificationListener = firebase.notifications().onNotification((notification) => {
+        // Process your notification as required
+        if(notification != undefined){
+          const {
+            body,
+            notificationId,
+            data,
+          } = notification;
+
+          this.createMessagesList(body, notificationId, data);    
+        }
+    });
+
+    this.notificationOpenedListener = firebase.notifications().onNotificationOpened((notificationOpen: NotificationOpen) => {
+        const notification: Notification = notificationOpen.notification;
+
+        const {
+          body,
+          notificationId,
+          data,
+        } = notification;
+
+        this.createMessagesList(body, notificationId, data);
+    });
+
+    firebase.notifications().getInitialNotification()
+      .then((notificationOpen: NotificationOpen) => {
+        
+        const notification: Notification = notificationOpen.notification;
+
+        const {
+          body,
+          notificationId,
+          data,
+        } = notification;
+
+        this.createMessagesList(body, notificationId, data);
+      });
+  }
+
+  createMessagesList(body, notificationId, data){
+    let message = {
+      "id"    : notificationId,
+      "title" : data.article_title,
+      "body"  : body,
+      "read"  : false
+    }
+
+    this.popup.show({
+      onPress: function() {console.log(message)},
+      appIconSource: require('./assets/icon.png'),
+      appTitle: 'YFC Events Management',
+      timeText: 'Now',
+      title: message.body,
+      body: message.title,
+    });
+  }
+
+  componentWillUnmount() {
+    this.notificationListener();
+    this.notificationOpenedListener();
   }
 
   render() {
@@ -80,8 +144,9 @@ export default class App extends Component {
       )
     } else {
       return (
-        <StyleProvider style={getTheme(platform)}>
+        <StyleProvider style={getTheme(material)}>
         <Root>
+          <NotificationPopup ref={ref => this.popup = ref} />
           <Provider store={store}>
             <Routes/>
           </Provider>

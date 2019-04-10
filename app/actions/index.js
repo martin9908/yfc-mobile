@@ -25,9 +25,14 @@ export function lgoin(loginData){
     axios.get(requestUser)
     .then(response => {
       // console.log(response.data);
-      AsyncStorage.setItem('user_data', JSON.stringify(response.data));
-      dispatch({type: USER_DATA, data: response.data});
-      Actions.push("loading");
+      if(response.data.code != undefined){
+        alert("Invalid Username and/or Password!");
+      }
+      else {
+        AsyncStorage.setItem('user_data', JSON.stringify(response.data));
+        dispatch({type: USER_DATA, data: response.data});
+        Actions.push("loading");
+      }
     })
     .catch(error => {
       console.log(error);
