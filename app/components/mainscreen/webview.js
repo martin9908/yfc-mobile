@@ -20,7 +20,7 @@ class Index extends Component {
 
     componentDidMount(){
       this.setState({
-        homeURL: 'http://192.168.1.2/yfc-managment/pages/database/login.php?username=' + this.props.user_data[0].User_Number + '&password=' + this.props.user_data[0].password,
+        homeURL: 'http://yfc-management.hostingerapp.com/pages/database/login.php?username=' + this.props.user_data[0].User_Number + '&password=' + this.props.user_data[0].password,
       })
     }
 

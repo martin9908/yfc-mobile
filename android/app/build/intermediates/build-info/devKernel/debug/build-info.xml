@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="23"
-    build-mode="FULL"
-    density="xxhdpi"
+    abi="armeabi-v7a,armeabi"
+    api-level="22"
+    build-mode="COLD"
+    density="xhdpi"
     format="10"
     plugin-version="3.2.1"
-    timestamp="1554934388937"
+    timestamp="1554963104951"
     token="-6954979863207605104"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
@@ -23,47 +23,16 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="/Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/split-apk/devKernel/debug/slices/slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/split-apk/devKernel/debug/slices/slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/split-apk/devKernel/debug/slices/slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/split-apk/devKernel/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/split-apk/devKernel/debug/slices/slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/split-apk/devKernel/debug/slices/slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/split-apk/devKernel/debug/slices/slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/split-apk/devKernel/debug/dep/dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/split-apk/devKernel/debug/slices/slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/split-apk/devKernel/debug/slices/slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/split-apk/devKernel/debug/slices/slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/instant-run-apk/devKernel/debug/app-devKernel-debug.apk"
-        type="SPLIT_MAIN" />
-
     <build
         build-mode="FULL"
-        timestamp="1554934388937"
+        timestamp="1554962589208"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/split-apk/devKernel/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/instant-run-apk/devKernel/debug/app-devKernel-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="/Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/split-apk/devKernel/debug/slices/slice_4.apk"
             type="SPLIT" />
@@ -83,13 +52,10 @@
             location="/Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/split-apk/devKernel/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/split-apk/devKernel/debug/slices/slice_7.apk"
+            location="/Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/split-apk/devKernel/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/split-apk/devKernel/debug/dep/dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/split-apk/devKernel/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/split-apk/devKernel/debug/slices/slice_8.apk"
@@ -97,9 +63,10 @@
         <artifact
             location="/Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/split-apk/devKernel/debug/slices/slice_9.apk"
             type="SPLIT" />
-        <artifact
-            location="/Users/martinjaycyhalum/Documents/Personal Files/Apps/Mobile/yfc-mobile/android/app/build/intermediates/instant-run-apk/devKernel/debug/app-devKernel-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
+    <build
+        build-mode="COLD"
+        timestamp="1554963104951"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

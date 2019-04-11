@@ -1,10 +1,10 @@
 {
   "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 41131,
+  "packagerPort": 19003,
+  "packagerPid": 57241,
   "expoServerNgrokUrl": "https://98-ps3.martinjaycyhalum.yfc-mobile.exp.direct",
   "packagerNgrokUrl": "https://packager.98-ps3.martinjaycyhalum.yfc-mobile.exp.direct",
-  "ngrokPid": 41166,
+  "ngrokPid": 57265,
   "devToolsPort": 19002,
   "webpackServerPort": null
 }
