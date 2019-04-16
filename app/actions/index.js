@@ -12,8 +12,8 @@ import axios from 'axios';
 import { AsyncStorage } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 // 192.168.1.2
-const baseURL = "http://192.168.1.7/yfc-managment/api/v2/";
-// const baseURL = "http://yfc-management.hostingerapp.com/api/v2/";
+// const baseURL = "http://192.168.1.7/yfc-managment/api/v2/";
+const baseURL = "http://yfc-management.hostingerapp.com/api/v2/";
 
 export function login(loginData){
   return (dispatch) => {

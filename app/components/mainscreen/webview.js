@@ -14,15 +14,15 @@ class Index extends Component {
       super(props);
 
       this.state = {
-          homeURL: "http://192.168.1.7/yfc-managment",
-          // homeURL: 'http://yfc-management.hostingerapp.com',
+          // homeURL: "http://192.168.1.7/yfc-managment",
+          homeURL: 'http://yfc-management.hostingerapp.com',
       };
     }
 
     componentDidMount(){
       this.setState({
-        homeURL: "http://192.168.1.7/yfc-managment/pages/database/login.php?username=" + this.props.user_data[0].User_Number + '&password=' + this.props.user_data[0].password,
-        // homeURL: 'http://yfc-management.hostingerapp.com/pages/database/login.php?username=' + this.props.user_data[0].User_Number + '&password=' + this.props.user_data[0].password,
+        // homeURL: "http://192.168.1.7/yfc-managment/pages/database/login.php?username=" + this.props.user_data[0].User_Number + '&password=' + this.props.user_data[0].password,
+        homeURL: 'http://yfc-management.hostingerapp.com/pages/database/login.php?username=' + this.props.user_data[0].User_Number + '&password=' + this.props.user_data[0].password,
       })
     }
 
