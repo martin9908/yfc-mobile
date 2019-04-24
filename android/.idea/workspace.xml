@@ -7,8 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9252bab4-fe37-4e25-9d6b-ce94b7002ba6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../app/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/components/mainscreen/webview.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/components/mainscreen/webview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.expo/packager-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.expo/packager-info.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +26,7 @@
     <session id="-2025815484">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.28" value="1" />
@@ -319,6 +318,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.3297568" />
