@@ -79,11 +79,11 @@ MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/martin
 MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/76febff2fcad1bb41e8b55baa52d3c0e/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-15.0.1.aar/e3979c00a57d520606209f46a989aeb6/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/0a5ddba42b0db3139975c2cb461c6265/AndroidManifest.xml:17:1-29:12
+MERGED from [me.leolin:ShortcutBadger:1.1.21] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/9fb0777bda7c5c15e76e7ea18fc704f4/AndroidManifest.xml:2:1-52:12
 MERGED from [com.facebook.android:audience-network-sdk:4.99.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-4.99.0.aar/819fcb905d5e891c5df8c2da7879fe3e/AndroidManifest.xml:2:1-20:12
 MERGED from [com.jakewharton:butterknife:8.4.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/butterknife-8.4.0.aar/b5afecce1e21034a9d8049c8c8a21937/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-ads:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/b59e9821b7fb557f5af6c8c83ecbdc42/AndroidManifest.xml:17:1-25:12
 MERGED from [com.raizlabs.android:DBFlow:2.2.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/DBFlow-2.2.1.aar/278905f875b8dc12069f39df7b81a22e/AndroidManifest.xml:2:1-13:12
-MERGED from [me.leolin:ShortcutBadger:1.1.21] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/9fb0777bda7c5c15e76e7ea18fc704f4/AndroidManifest.xml:2:1-52:12
 MERGED from [com.yqritc:android-scalablevideoview:1.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/android-scalablevideoview-1.0.1.aar/784ed6871606b3001e294020bffb2afc/AndroidManifest.xml:2:1-12:12
 MERGED from [net.openid:appauth:0.7.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appauth-0.7.1.aar/b1b75f2fe3ad500548bd40dfc0a0e3dc/AndroidManifest.xml:15:1-46:12
 MERGED from [com.airbnb.android:lottie:2.5.5] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/lottie-2.5.5.aar/753df6912721a648bcbea92ce2db5c76/AndroidManifest.xml:2:1-13:12
@@ -113,13 +113,13 @@ MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.6.1] /User
 MERGED from [com.google.android.exoplayer:exoplayer-ui:2.6.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-2.6.1.aar/2f812205c4ac3f87c630b0e04e85d620/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.6.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/exoplayer-core-2.6.1.aar/10eebc4ea31612596fc6fb4a05aeaf23/AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:customtabs:27.1.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.1.aar/068930b7dc330c58fff92709bcb89c29/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/7992d9cb8f25aba0b820ccd69828941c/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/88b2ddf5a7bce80924bf4cc03cb842c2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/5af56af573ec78ca9bd95bb1fc2ed39d/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/33ede2da33a52cbbd0b5d7d5d3b1e9fd/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/eb237c206f7f072026ba16e25f882bc0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/f3153db22408c1831de6f8c3a53db128/AndroidManifest.xml:17:1-36:12
 MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/0f0098d53c2a218a9aca2f6baa21a422/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/7992d9cb8f25aba0b820ccd69828941c/AndroidManifest.xml:2:1-19:12
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/88b2ddf5a7bce80924bf4cc03cb842c2/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/5af56af573ec78ca9bd95bb1fc2ed39d/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/4f2fbbb57efd3716255d097858d18c42/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/315e0eaa035305e3de8ae0d38f77c512/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:28.0.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/1591a02ab5af977df072593bfcbd0921/AndroidManifest.xml:17:1-22:12
@@ -511,6 +511,12 @@ MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/martinjaycyhalum/.grad
 MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/ab4cf11f3c1ae92128ec57286255b864/AndroidManifest.xml:11:5-20
 MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/078540e705bfa547fb2af6bec64853a9/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/078540e705bfa547fb2af6bec64853a9/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/7992d9cb8f25aba0b820ccd69828941c/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/7992d9cb8f25aba0b820ccd69828941c/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/88b2ddf5a7bce80924bf4cc03cb842c2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/88b2ddf5a7bce80924bf4cc03cb842c2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/5af56af573ec78ca9bd95bb1fc2ed39d/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/5af56af573ec78ca9bd95bb1fc2ed39d/AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/33ede2da33a52cbbd0b5d7d5d3b1e9fd/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/33ede2da33a52cbbd0b5d7d5d3b1e9fd/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/eb237c206f7f072026ba16e25f882bc0/AndroidManifest.xml:22:5-20
@@ -519,12 +525,6 @@ MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/martin
 MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/f3153db22408c1831de6f8c3a53db128/AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/0f0098d53c2a218a9aca2f6baa21a422/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/0f0098d53c2a218a9aca2f6baa21a422/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/7992d9cb8f25aba0b820ccd69828941c/AndroidManifest.xml:11:5-17:19
-MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/7992d9cb8f25aba0b820ccd69828941c/AndroidManifest.xml:11:5-17:19
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/88b2ddf5a7bce80924bf4cc03cb842c2/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/88b2ddf5a7bce80924bf4cc03cb842c2/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/5af56af573ec78ca9bd95bb1fc2ed39d/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/5af56af573ec78ca9bd95bb1fc2ed39d/AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/4f2fbbb57efd3716255d097858d18c42/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/4f2fbbb57efd3716255d097858d18c42/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/315e0eaa035305e3de8ae0d38f77c512/AndroidManifest.xml:22:5-26:19
@@ -1119,6 +1119,8 @@ MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/marti
 MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-15.0.1.aar/e3979c00a57d520606209f46a989aeb6/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/0a5ddba42b0db3139975c2cb461c6265/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/0a5ddba42b0db3139975c2cb461c6265/AndroidManifest.xml:20:5-44
+MERGED from [me.leolin:ShortcutBadger:1.1.21] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/9fb0777bda7c5c15e76e7ea18fc704f4/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.21] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/9fb0777bda7c5c15e76e7ea18fc704f4/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.android:audience-network-sdk:4.99.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-4.99.0.aar/819fcb905d5e891c5df8c2da7879fe3e/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.android:audience-network-sdk:4.99.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-4.99.0.aar/819fcb905d5e891c5df8c2da7879fe3e/AndroidManifest.xml:7:5-9:41
 MERGED from [com.jakewharton:butterknife:8.4.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/butterknife-8.4.0.aar/b5afecce1e21034a9d8049c8c8a21937/AndroidManifest.xml:5:5-43
@@ -1127,8 +1129,6 @@ MERGED from [com.google.android.gms:play-services-ads:15.0.1] /Users/martinjaycy
 MERGED from [com.google.android.gms:play-services-ads:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/b59e9821b7fb557f5af6c8c83ecbdc42/AndroidManifest.xml:21:5-23:62
 MERGED from [com.raizlabs.android:DBFlow:2.2.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/DBFlow-2.2.1.aar/278905f875b8dc12069f39df7b81a22e/AndroidManifest.xml:7:5-9:41
 MERGED from [com.raizlabs.android:DBFlow:2.2.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/DBFlow-2.2.1.aar/278905f875b8dc12069f39df7b81a22e/AndroidManifest.xml:7:5-9:41
-MERGED from [me.leolin:ShortcutBadger:1.1.21] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/9fb0777bda7c5c15e76e7ea18fc704f4/AndroidManifest.xml:7:5-9:41
-MERGED from [me.leolin:ShortcutBadger:1.1.21] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/9fb0777bda7c5c15e76e7ea18fc704f4/AndroidManifest.xml:7:5-9:41
 MERGED from [com.yqritc:android-scalablevideoview:1.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/android-scalablevideoview-1.0.1.aar/784ed6871606b3001e294020bffb2afc/AndroidManifest.xml:8:5-10:41
 MERGED from [com.yqritc:android-scalablevideoview:1.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/android-scalablevideoview-1.0.1.aar/784ed6871606b3001e294020bffb2afc/AndroidManifest.xml:8:5-10:41
 MERGED from [net.openid:appauth:0.7.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appauth-0.7.1.aar/b1b75f2fe3ad500548bd40dfc0a0e3dc/AndroidManifest.xml:20:5-22:41
@@ -1187,6 +1187,12 @@ MERGED from [com.google.android.exoplayer:exoplayer-core:2.6.1] /Users/martinjay
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.6.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/exoplayer-core-2.6.1.aar/10eebc4ea31612596fc6fb4a05aeaf23/AndroidManifest.xml:21:5-23:41
 MERGED from [com.android.support:customtabs:27.1.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.1.aar/068930b7dc330c58fff92709bcb89c29/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:customtabs:27.1.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.1.aar/068930b7dc330c58fff92709bcb89c29/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/7992d9cb8f25aba0b820ccd69828941c/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/7992d9cb8f25aba0b820ccd69828941c/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/88b2ddf5a7bce80924bf4cc03cb842c2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/88b2ddf5a7bce80924bf4cc03cb842c2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/5af56af573ec78ca9bd95bb1fc2ed39d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/5af56af573ec78ca9bd95bb1fc2ed39d/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/33ede2da33a52cbbd0b5d7d5d3b1e9fd/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/33ede2da33a52cbbd0b5d7d5d3b1e9fd/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/eb237c206f7f072026ba16e25f882bc0/AndroidManifest.xml:20:5-44
@@ -1195,12 +1201,6 @@ MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/martin
 MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/f3153db22408c1831de6f8c3a53db128/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/0f0098d53c2a218a9aca2f6baa21a422/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/0f0098d53c2a218a9aca2f6baa21a422/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/7992d9cb8f25aba0b820ccd69828941c/AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/7992d9cb8f25aba0b820ccd69828941c/AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/88b2ddf5a7bce80924bf4cc03cb842c2/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/88b2ddf5a7bce80924bf4cc03cb842c2/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/5af56af573ec78ca9bd95bb1fc2ed39d/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/5af56af573ec78ca9bd95bb1fc2ed39d/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/4f2fbbb57efd3716255d097858d18c42/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/4f2fbbb57efd3716255d097858d18c42/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/315e0eaa035305e3de8ae0d38f77c512/AndroidManifest.xml:20:5-44
@@ -1561,12 +1561,6 @@ ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/martinjaycy
 		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/0a5ddba42b0db3139975c2cb461c6265/AndroidManifest.xml:26:13-72
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/0a5ddba42b0db3139975c2cb461c6265/AndroidManifest.xml:24:13-79
-activity#com.facebook.ads.AudienceNetworkActivity
-ADDED from [com.facebook.android:audience-network-sdk:4.99.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-4.99.0.aar/819fcb905d5e891c5df8c2da7879fe3e/AndroidManifest.xml:15:9-17:77
-	android:configChanges
-		ADDED from [com.facebook.android:audience-network-sdk:4.99.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-4.99.0.aar/819fcb905d5e891c5df8c2da7879fe3e/AndroidManifest.xml:17:13-74
-	android:name
-		ADDED from [com.facebook.android:audience-network-sdk:4.99.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-4.99.0.aar/819fcb905d5e891c5df8c2da7879fe3e/AndroidManifest.xml:16:13-68
 uses-permission#com.sec.android.provider.badge.permission.READ
 ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/9fb0777bda7c5c15e76e7ea18fc704f4/AndroidManifest.xml:19:5-86
 	android:name
@@ -1631,6 +1625,12 @@ uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
 ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/9fb0777bda7c5c15e76e7ea18fc704f4/AndroidManifest.xml:50:5-89
 	android:name
 		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/9fb0777bda7c5c15e76e7ea18fc704f4/AndroidManifest.xml:50:22-86
+activity#com.facebook.ads.AudienceNetworkActivity
+ADDED from [com.facebook.android:audience-network-sdk:4.99.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-4.99.0.aar/819fcb905d5e891c5df8c2da7879fe3e/AndroidManifest.xml:15:9-17:77
+	android:configChanges
+		ADDED from [com.facebook.android:audience-network-sdk:4.99.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-4.99.0.aar/819fcb905d5e891c5df8c2da7879fe3e/AndroidManifest.xml:17:13-74
+	android:name
+		ADDED from [com.facebook.android:audience-network-sdk:4.99.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/audience-network-sdk-4.99.0.aar/819fcb905d5e891c5df8c2da7879fe3e/AndroidManifest.xml:16:13-68
 activity#net.openid.appauth.AuthorizationManagementActivity
 ADDED from [net.openid:appauth:0.7.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/appauth-0.7.1.aar/b1b75f2fe3ad500548bd40dfc0a0e3dc/AndroidManifest.xml:27:9-31:75
 	android:launchMode
@@ -1673,16 +1673,6 @@ ADDED from [com.android.support:recyclerview-v7:26.1.0] /Users/martinjaycyhalum/
 		ADDED from [com.android.support:recyclerview-v7:26.1.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/078540e705bfa547fb2af6bec64853a9/AndroidManifest.xml:25:13-35
 	android:name
 		ADDED from [com.android.support:recyclerview-v7:26.1.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/078540e705bfa547fb2af6bec64853a9/AndroidManifest.xml:24:13-51
-activity#com.google.android.gms.ads.AdActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/f3153db22408c1831de6f8c3a53db128/AndroidManifest.xml:29:9-33:64
-	android:exported
-		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/f3153db22408c1831de6f8c3a53db128/AndroidManifest.xml:32:13-37
-	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/f3153db22408c1831de6f8c3a53db128/AndroidManifest.xml:31:13-122
-	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/f3153db22408c1831de6f8c3a53db128/AndroidManifest.xml:33:13-61
-	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/f3153db22408c1831de6f8c3a53db128/AndroidManifest.xml:30:13-65
 provider#com.google.firebase.provider.FirebaseInitProvider
 ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/7992d9cb8f25aba0b820ccd69828941c/AndroidManifest.xml:12:9-16:39
 	android:authorities
@@ -1693,6 +1683,16 @@ ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/martinjaycyhalum/
 		ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/7992d9cb8f25aba0b820ccd69828941c/AndroidManifest.xml:16:13-36
 	android:name
 		ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/7992d9cb8f25aba0b820ccd69828941c/AndroidManifest.xml:13:13-77
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/f3153db22408c1831de6f8c3a53db128/AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/f3153db22408c1831de6f8c3a53db128/AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/f3153db22408c1831de6f8c3a53db128/AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/f3153db22408c1831de6f8c3a53db128/AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/f3153db22408c1831de6f8c3a53db128/AndroidManifest.xml:30:13-65
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/315e0eaa035305e3de8ae0d38f77c512/AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/martinjaycyhalum/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/f6d080770243f79dee094ca3f3e0a65a/AndroidManifest.xml:8:9-10:69
